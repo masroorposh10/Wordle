@@ -16,8 +16,10 @@ The Wordle Game is built using the following technologies:
 
 # HTML: 
 The structure of the game interface is created using HTML5 markup.
-CSS: Cascading Style Sheets are used to style the game elements and provide an engaging user interface.
-JavaScript: The game logic and interactivity are implemented using JavaScript.
+# CSS: 
+Cascading Style Sheets are used to style the game elements and provide an engaging user interface.
+# JavaScript: 
+The game logic and interactivity are implemented using JavaScript.
 Getting Started
 To play the Wordle Game locally, follow these steps:
 
