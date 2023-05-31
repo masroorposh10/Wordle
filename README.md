@@ -1,4 +1,5 @@
-##Wordle Game
+# Wordle Game
+
 The Wordle Game is a fun and interactive word-guessing game built using HTML, CSS, and JavaScript. It challenges players to guess a target word by providing feedback on the correctness of their guesses. This README provides an overview of the game and instructions for getting started.
 
 #Game Rules
