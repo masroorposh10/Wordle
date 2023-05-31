@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>Wordle</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+  <header>
+    <button class="upper" id="instructions-button">&#9432;</button>
+    </button>
+    <div class="title"> WORDLE </div>
+    <button id="dark-mode-toggle" class="upper">&#9681;</button>
+  </header>
+  <img id="congrats-img"
+    src="https://res.cloudinary.com/mkf/image/upload/v1675467141/ENSF-381/labs/congrats_fkscna.gif">
+  <div id="instructions-container">
+    <ul id="instructions-list">
+      <h1>Instructions for playing the game:</h1>
+      <li>Guess the four-letter word by typing it in the input field.</li>
+      <li>You have 4 chances to guess the word.</li>
+      <li>The letters that are correct and in the correct position will be shown in green, and the letters that are
+        correct but in the wrong position will be shown in yellow.</li>
+      <li>when you win you, refresh or press start over to play again.</li>
+      <li>Click Start over to try again if you lose.</li>
+      <li>Click Hint to check for hints.</li>
+    </ul>
+  </div>
+  <div id="whole-center">
+    <div id="board">
+    </div>
+    <div id="center-alignment">
+      <button class="btn">Start Over</button>
+      <button onclick="displayhint()" id="btnhint">HINT!</button>
+      <p id="hint"></p>
+    </div>
+  </div>
+  <footer>
+    <p>@masroorposh</p>
+  </footer>
+  <script src="./wordle.js"></script>
+</body>
+
+</html>
