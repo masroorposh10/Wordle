@@ -2,7 +2,7 @@
 
 The Wordle Game is a fun and interactive word-guessing game built using HTML, CSS, and JavaScript. It challenges players to guess a target word by providing feedback on the correctness of their guesses. This README provides an overview of the game and instructions for getting started.
 
-#Game Rules
+# Game Rules
 The game selects a random target word, typically of five letters.
 The player enters their guess into the input field and submits it.
 The game provides feedback on the correctness of the guess:
@@ -14,7 +14,8 @@ The game keeps track of the number of attempts and displays a win/lose message a
 Technologies Used
 The Wordle Game is built using the following technologies:
 
-HTML: The structure of the game interface is created using HTML5 markup.
+# HTML: 
+The structure of the game interface is created using HTML5 markup.
 CSS: Cascading Style Sheets are used to style the game elements and provide an engaging user interface.
 JavaScript: The game logic and interactivity are implemented using JavaScript.
 Getting Started
